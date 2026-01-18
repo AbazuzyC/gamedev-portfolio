@@ -30,7 +30,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of Abu Fadel Abas" />
+      <img src="img/avatar.png" alt="Photo of Abu Fadel Abas" />
     </div>
 
     <div style="clear:both"></div>
