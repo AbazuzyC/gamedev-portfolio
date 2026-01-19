@@ -1,4 +1,4 @@
-import ProjectData from '@/data/ProjectData.ts'
+import ProjectData from '@/data/ProjectData'
 
 export default [
     new ProjectData("project-1", "I'm Surely Not High", "img/projects/imsurelynothighcover.png", 
@@ -10,11 +10,11 @@ export default [
      
     </div>
     <div class="paragraph center">
-        <img src="img/projects/Ajzhhf.jpg" alt="I'm Surely Not High" /></a>
-        <img src="img/projects/uqcVv4.jpg" alt="I'm Surely Not High" /></a>
+        <img src="img/projects/Ajzhhf.jpg" alt="I'm Surely Not High" width="30%"></a>
+        <img src="img/projects/uqcVv4.jpg" alt="I'm Surely Not High" width="30%"></a>
     </div>
     <div class="paragraph center">
-        <a href="https://abazuzy.itch.io/im-surely-not-high" target="_blank"><img src="img/projects/itchio.png" alt="Play Store badge" width="153" height="61"/></a>
+        <a href="https://abazuzy.itch.io/im-surely-not-high" target="_blank"><img src="img/projects/itchio.png" alt="itch io" width="20%"/></a>
     </div>
 
     <div class="paragraph">

@@ -91,7 +91,7 @@
         <h3>Technical</h3>
         <SkillRate name="Unity" :rate="4" />
         <SkillRate name="C# Programming" :rate="3" />
-        <SkillRate name="Microsoft Office" :rate="4" />
+        <SkillRate name="Microsoft Office" :rate="3" />
       </div>
 
       <div style="clear:both" />

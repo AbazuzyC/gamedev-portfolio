@@ -4,11 +4,12 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Abu Fadel Abas</strong>, a game designer with 8 games of experience who love to create video games and compete.<br/>
+        I'm <strong>Abu Fadel Abas</strong>, a game designer with some games of experience who love to create video games and compete.<br/>
+        <br/>
         I'm also a Founder for <a href="https://www.instagram.com/gamitech_club/">Gamitech Club</a>, Game Development Club at State University Of Jakarta and I love discussing, designing and developing games in general.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">Games</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">Games</router-link>, and took part in <router-link to="/other-projects">a few things</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game designer. You can reach me at <a href="mailto:abufadelabas20@gmail.com">abufadelabas20@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
