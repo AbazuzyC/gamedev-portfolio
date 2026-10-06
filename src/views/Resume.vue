@@ -95,50 +95,15 @@
         <div><strong>Bahasa:</strong> Indonesia, Inggris (Menengah).</div>
         <div><strong>Minat:</strong> Membuat game singkat, sepak bola, dan bermain game dengan genre yang berbeda beda.</div>
       </div>
-
-      <div class="skill-set">
-        <h3>Keahlian Teknis</h3>
-        <SkillRate name="Game Design" :rate="5" />
-        <SkillRate name="Prototyping" :rate="5" />
-        <SkillRate name="Unity Engine" :rate="4" />
-        <SkillRate name="C# Programming" :rate="3" />
-        <SkillRate name="Pixel Art" :rate="3" />
-        <SkillRate name="Blender" :rate="3" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Kepemimpinan & Bahasa</h3>
-        <SkillRate name="Leadership" :rate="5" />
-        <SkillRate name="Project Management" :rate="4" />
-        <SkillRate name="Public Speaking" :rate="4" />
-        <SkillRate name="Bahasa Indonesia" :rate="5" />
-        <SkillRate name="Bahasa Inggris" :rate="4" />
-      </div>
-
-      <div style="clear:both" />
-
-      <h2>Kontak</h2>
-
-      <div class="contact-info">
-        Email: <a href="mailto:abufadelabas20@gmail.com">abufadelabas20@gmail.com</a><br />
-        Phone / WhatsApp: <a href="tel:+6285695746954">+62 856-9574-6954</a><br />
-        Alamat: Jl. Amil No.47, Jakarta Selatan, 12510<br />
-        LinkedIn: <a href="https://www.linkedin.com/in/abu-fadel-abas/" target="_blank">linkedin.com/in/abu-fadel-abas</a><br />
-        Portfolio: <a href="https://abazuzyc.github.io/gamedev-portfolio" target="_blank">abazuzyc.github.io/gamedev-portfolio</a>
-      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
-  components: {
-    SkillRate,
-  },
 });
 </script>
 
@@ -233,11 +198,6 @@ li {
   opacity: 0.85;
 }
 
-.contact-info {
-  line-height: 1.9em;
-  margin-top: 10px;
-}
-
 .photo {
   margin-top: 50px;
   text-align: center;
@@ -252,11 +212,6 @@ li {
     float: left;
     padding: 30px;
     padding-left: 80px;
-  }
-
-  .skill-set {
-    float: left;
-    padding-right: 60px; 
   }
 }
 </style>
