@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    <MeteoroidGame />
     <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
 
     <Header />
@@ -17,12 +17,13 @@
 import Vue from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
+import MeteoroidGame from './components/MeteoroidGame.vue';
 import Helpers from './helpers';
 
 export default Vue.extend({
   name: 'App',
   components: {
-    Header, Footer
+    Header, Footer, MeteoroidGame
   }
 });
 
@@ -81,8 +82,13 @@ h1 {
 }
 
 .main {
-    padding: 12px;
-  }
+  padding: 12px;
+}
+
+.main, .header, .footer {
+  position: relative;
+  z-index: 1;
+}
 
 @media only screen and (min-width: 620px){
 
@@ -104,6 +110,8 @@ h1 {
   .main, .header, .footer {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
   }
 }
 
