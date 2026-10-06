@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Organizations</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      I also joined some organizations to teach me about leadership and teamwork, and to meet new people. Here are some of the organizations I've been a part of.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

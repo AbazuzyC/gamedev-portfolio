@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div v-if="visible">
-      <div class="overlay">
+      <div class="overlay" @click="$emit('close')">
       </div>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
@@ -28,9 +28,20 @@ export default Vue.extend({
     title: String,
     htmlContent: String,
   },
+  mounted() {
+    window.addEventListener("keydown", this.onKeyDown);
+  },
+  beforeDestroy() {
+    window.removeEventListener("keydown", this.onKeyDown);
+  },
   methods: {
     getImage: function(url: string) {
       console.log("fetching image " + url);
+    },
+    onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape" && this.visible) {
+        this.$emit("close");
+      }
     }
   }
 });
@@ -116,6 +127,5 @@ a.dialog-close-button {
     padding: 40px;
   }
 }
-
 
 </style>
